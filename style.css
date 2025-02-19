@@ -1,0 +1,104 @@
+body {
+    margin: auto;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    width: 1100px;
+    background-color: #000000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+blockquote {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    box-sizing: border-box;
+    height: 293px;
+    display: block;
+    background-color: #fff;
+    padding: 92px 24px 94px 24px;
+}
+
+.section {
+    box-sizing: border-box;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+}
+
+.nav {
+    margin: auto;
+
+}
+
+.list {
+    width: 391px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    list-style: circle;
+    column-gap: 11px;
+}
+
+.list-item {
+    color: #000;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.list-item-main {
+    margin-left: 0;
+}
+
+.list-item-lots {
+    margin-left: 0;
+}
+
+.list-item-auction {
+    margin-left: 0;
+}
+
+.contacts {
+
+}
+
+.contacts-item {
+    color: #000;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24.3px; /* 135% */
+    letter-spacing: 0.18px;
+}
+
+.header-logo {
+    margin: auto;
+    width: 148px;
+    height: 105px;
+    flex-shrink: 0;
+}
+
+.contacts {
+    font-style: normal;
+    margin-left: 185px;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.3px; /* 135% */
+    letter-spacing: 0.18px;
+    color: #000;
+    text-decoration: none; 
+}
