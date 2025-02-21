@@ -102,3 +102,97 @@ blockquote {
     color: #000;
     text-decoration: none; 
 }
+
+.overlay-img {
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+
+.overlay-img .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1100px;
+    height: 757px;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.cover-title {
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 115%; /* 115px */
+    letter-spacing: 30px;
+    text-transform: uppercase;
+    padding-top: 165px;
+    white-space: nowrap;
+}
+
+.cover-title .alight-text-left {
+    margin: 165px 0px 477px 50px;
+}
+
+.cover-title .alight-text-center {
+    margin: 300px 0px 357px 336px;
+}
+
+.cover-title .alight-text-right {
+    margin: 420px 0px 237px 633px;
+}
+
+.cover-title .letter-spacing-extended {
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 115%;
+    letter-spacing: 60px;
+    text-transform: uppercase;
+}
+
+.cover-title .text-nowrap{
+    display: inline-block;
+    margin-left: -25px;
+}
+
+.cover-description {
+    display: block;
+    margin-top: 147px;
+    margin-left: 78px;
+}
+
+.cover-description-text {
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 127.273% */
+    text-transform: uppercase;
+    word-spacing: 24.2px;
+}
+
+.cover-description-button {
+    margin-left: 79px;
+    background-color: transparent;
+    width: 193px;
+    height: 28px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    text-wrap: nowrap;
+    border: 1px solid #FFF;
+    width: 256px;
+    height: 51px;
+    flex-shrink: 0;
+}
